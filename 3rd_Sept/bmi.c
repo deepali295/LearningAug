@@ -14,6 +14,14 @@ int main()
 	double bmi= wt/(ht*ht);
 	printf("Calculated BMI = %lf \n",bmi);
 
-	return 0;
+if(bmi<18.5)
+	printf("Underweight\n");
+else if(bmi >=18.5 && bmi<=24.9)
+	printf("Normal Weight\n");
+else if(bmi>=25 && bmi<=29.9)
+	printf("Overweigh\nt");
+else
+	printf("Obesity");
+return 0;
 }
 

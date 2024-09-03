@@ -11,7 +11,7 @@ int main()
 	printf("Enter student grade: \n");
 	scanf(" %c",&grade);
 
-	printf("Your score is %lf and Grade is %c\n",student_score,grade);
+	printf("Your score is %.2f and Grade is %c\n",student_score,grade);
 
 return 0;	
 }
